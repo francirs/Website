@@ -72,7 +72,7 @@ background-color: whitesmoke;
 
 .dropdown-content .dropdown-hover {background-color: #ddd;}
 
-.dropdown-hover .dropdown-content {display: inline-block}
+.dropdown-hover .dropdown-content {display: block}
 
 .dropdown-hover .dropbtn {background-color: #3e8e41;}
 
