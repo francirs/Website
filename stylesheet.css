@@ -49,8 +49,9 @@ background-color: whitesmoke;
 }
 
 .dropdown {
-  position: absolute; z-index:1;
+  position: absolute;
   display: inline-block;
+  z-index: 10;
 }
 
 /* Donations button */
