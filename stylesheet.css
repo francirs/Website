@@ -49,13 +49,13 @@ background-color: whitesmoke;
 }
 
 .dropdown {
-  position: relative;
+  position: absolute;
   display: inline-block;
 }
 
 /* Donations button */
 .dropdown-menu {
-  display: none;
+  display: inline-block;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
