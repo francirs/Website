@@ -5,7 +5,7 @@ background-color: whitesmoke; z-index: 2;
 }
 
 .topnav {
-  background-color: white;
+  background-color: white; z-index: 2;
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -15,7 +15,7 @@ background-color: whitesmoke; z-index: 2;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #ddd; z-index: 2;
   color: black;
 }
 
@@ -24,6 +24,7 @@ background-color: whitesmoke; z-index: 2;
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
+    z-index: 1;
   }
   
 /* Links inside the navbar */
@@ -34,6 +35,7 @@ background-color: whitesmoke; z-index: 2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  z-index: 2;
 }
 
 /* The dropdown container */
