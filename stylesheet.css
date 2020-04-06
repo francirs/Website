@@ -70,11 +70,11 @@ background-color: whitesmoke;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content .dropdown-hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content {display: inline-block}
+.dropdown-hover .dropdown-content {display: inline-block}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown-hover .dropbtn {background-color: #3e8e41;}
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
