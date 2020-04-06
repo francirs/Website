@@ -106,15 +106,6 @@ background-color: whitesmoke;
 }
 
 
-/* Dropdown content (hidden by default) */
-.dropdown-menu {
-  float: none;
-  position: absolute;
-  background-color: darkgray;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
 
 /* Links inside the dropdown */
 .dropdown-menu a {
