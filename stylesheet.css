@@ -1,11 +1,7 @@
 
 /* .flexItem will apply to all elements with a class of flexItem */
 .background {
-background-image: url(helpingothers.jpg);
-background-repeat: no-repeat;
-background-size: 100%;
-background-color: whitesmoke;
-z-index: 2;
+background-color: whitesmoke; z-index: 2;
 }
 
 .topnav {
@@ -51,7 +47,7 @@ z-index: 2;
 }
 
 .dropdown {
-  position: absolute;
+  position: relative;
   display: inline-block;
   z-index: 1;
 }
