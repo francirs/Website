@@ -1,5 +1,6 @@
 
 // FUNCTIONS EXERCISE
+<script type="text/javascript" src="https://example.com/js/main.js"></script>
 
 // 1. Write a function that reverses a string
 function reverseString(string) {
