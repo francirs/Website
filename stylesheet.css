@@ -5,6 +5,7 @@ background-image: url(helpingothers.jpg);
 background-repeat: no-repeat;
 background-size: 100%;
 background-color: whitesmoke;
+z-index: 2;
 }
 
 .topnav {
