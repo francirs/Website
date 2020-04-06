@@ -1,7 +1,9 @@
 
 /* .flexItem will apply to all elements with a class of flexItem */
 .body {
-background-image: url("helping.png");
+background-image: url(helping.png);
+background-repeat: no-repeat;
+background-size: auto;
 background-color: whitesmoke;
 }
 
