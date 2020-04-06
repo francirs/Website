@@ -46,6 +46,7 @@ background-color: whitesmoke;
   padding: 16px;
   font-size: 16px;
   border: none;
+  z-index: 10;
 }
 
 .dropdown {
@@ -61,7 +62,7 @@ background-color: whitesmoke;
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 10;
 }
 
 .dropdown-content a {
@@ -69,12 +70,14 @@ background-color: whitesmoke;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  z-index: 10;
 }
 
 .dropdown-container {
   display: none;
   background-color: #262626;
   padding-left: 8px;
+  z-index: 10;
 }
 
 .fa-caret-down{
