@@ -59,7 +59,7 @@ background-color: whitesmoke;
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: darkgrey;
   }
 
 /* Dropdown content (hidden by default) */
