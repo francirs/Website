@@ -55,7 +55,7 @@ background-color: whitesmoke;
 
 /* Donations button */
 .dropdown-content {
-  display: inside;
+  display: relative;
   position: absolute; z-index:1;
   background-color: #f1f1f1;
   min-width: 160px;
