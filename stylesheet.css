@@ -34,13 +34,13 @@
 }
 
 /* The dropdown container */
-.dropdown {
+.donations {
   float: left;
   overflow: hidden;
 }
 
-/* Dropdown button */
-.dropdown .dropbtn {
+/* Donations button */
+.donations .dropbtn {
   font-size: 16px;
   border: none;
   outline: none;
@@ -52,12 +52,12 @@
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .donations:hover .dropbtn {
   background-color: red;
   }
 
 /* Dropdown content (hidden by default) */
-.dropdown-content {
+.donations-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -67,7 +67,7 @@
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.donations-content a {
   float: none;
   color: black;
   padding: 12px 16px;
@@ -77,11 +77,11 @@
 }
 
 /* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
+.donations-content a:hover {
   background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.donations:hover .donations-content {
   display: block;
 }
