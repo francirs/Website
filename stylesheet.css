@@ -1,7 +1,8 @@
 
 /* .flexItem will apply to all elements with a class of flexItem */
 .body {
-background-image: url("helping.png")
+background-image: url("helping.png");
+background-color: whitesmoke;
 }
 
 .topnav {
