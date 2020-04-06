@@ -50,7 +50,7 @@ background-color: whitesmoke;
 
 .dropdown {
   position: relative;
-  display: block;
+  display: inline-block;
 }
 
 /* Donations button */
