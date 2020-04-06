@@ -57,7 +57,8 @@ background-color: whitesmoke; z-index: 2;
 /* Donations button */
 .dropdown-content {
   display: relative;
-  position: absolute; z-index:1;
+  position: absolute; 
+  z-index:1;
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -82,6 +83,7 @@ background-color: whitesmoke; z-index: 2;
 .fa-caret-down{
   float: right;
   padding-right: 8px;
+  z-index: 1;
 }
 
 .dropdown-content .dropdown-hover {background-color: #ddd;}
