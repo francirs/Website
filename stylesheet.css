@@ -54,6 +54,11 @@
   z-index: 1;
 }
 
+.dropdown li {
+  z-index: 1;
+  position:relative;
+  }
+
 /* Donations button */
 .dropdown-content {
   display: none;
