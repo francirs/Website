@@ -47,8 +47,11 @@
 }
 
 .dropdown {
-  position: relative;
+  position: fixed;
   display: inline-block;
+  top: 0;
+  left: 100px;
+  z-index: 999;
 }
 
 /* Donations button */
