@@ -80,16 +80,6 @@ background-color: whitesmoke; z-index: 2;
   z-index: 1;
 }
 
-.dropdown-toggle {
-  display: relative;
-  position: absolute; 
-  z-index:1;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: auto;
-}
-
 .caret{
   float: right;
   padding-right: 8px;
