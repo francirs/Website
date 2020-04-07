@@ -2,9 +2,7 @@
 /* .flexItem will apply to all elements with a class of flexItem */
 
 .topnav {
-  background-color: white; z-index: 2;
-  float: left;
-  color: #f2f2f2;
+
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -12,7 +10,7 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd; z-index: 2;
+  background-color: #ddd;
   color: black;
 }
 
