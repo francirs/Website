@@ -80,7 +80,7 @@ background-color: whitesmoke; z-index: 2;
   z-index: 1;
 }
 
-.caret{
+.fa-fa-caret{
   float: right;
   padding-right: 8px;
   z-index: 1;

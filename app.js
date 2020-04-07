@@ -11,6 +11,7 @@ function reverseString(string) {
     return reversedString; 
 }
 console.log(reverseString("Hello"));
+$('.dropdown-toggle').dropdown();
 
 
 
