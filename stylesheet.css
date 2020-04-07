@@ -2,7 +2,9 @@
 /* .flexItem will apply to all elements with a class of flexItem */
 
 .topnav {
-
+  background-color: white;
+  float: left;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -44,7 +46,7 @@
 }
 
 .dropdown {
-  position: relative;
+  position: fixed;
   display: inline-block;
 }
 
