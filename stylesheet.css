@@ -80,7 +80,9 @@ background-color: whitesmoke; z-index: 2;
   z-index: 1;
 }
 
-.fa-caret-down{
+.dropdown-toggle
+
+.caret{
   float: right;
   padding-right: 8px;
   z-index: 1;
