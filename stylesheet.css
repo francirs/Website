@@ -1,8 +1,5 @@
 
 /* .flexItem will apply to all elements with a class of flexItem */
-.background {
-background-color: whitesmoke; z-index: 2;
-}
 
 .topnav {
   background-color: white; z-index: 2;
@@ -40,7 +37,7 @@ background-color: whitesmoke; z-index: 2;
 
 /* The dropdown container */
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: grey;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -84,6 +81,8 @@ background-color: whitesmoke; z-index: 2;
   padding-right: 8px;
   z-index: 1;
 }
+
+.dropdown-content .dropdown:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
