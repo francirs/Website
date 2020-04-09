@@ -6,7 +6,7 @@
   .navbar {
     overflow: hidden;
     background-color: #333;
-    font-family: Arial;
+    font-family: Arial, Arial, Helvetica, sans-serif
   }
   
 /* Links inside the navbar */
