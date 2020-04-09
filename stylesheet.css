@@ -2,7 +2,6 @@
 /* .flexItem will apply to all elements with a class of flexItem */
 
   /* Navbar container */
- 
   
   .navbar {
     overflow: hidden;
@@ -27,6 +26,7 @@ overflow: hidden;
 }
 
 .dropdown .dropbtn {
+  cursor: pointer;
   font-size: 16px;
   border: none;
   outline: none;
@@ -37,8 +37,8 @@ overflow: hidden;
   margin: 0; /* Important for vertical align on mobile phones */
 }
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus{
+  background-color: lightslategray;
 }
 
 /* Dropdown content (hidden by default) */
@@ -47,7 +47,8 @@ overflow: hidden;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px 
+  rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -59,6 +60,10 @@ overflow: hidden;
   text-decoration: none;
   display: block;
   text-align: left;
+}
+
+.show{
+  display: block;
 }
 
 /* Add a grey background color to dropdown links on hover */
