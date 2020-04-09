@@ -2,11 +2,14 @@
 /* .flexItem will apply to all elements with a class of flexItem */
 
   /* Navbar container */
+  .body{
+    font-family: Arial
+  }
   
   .navbar {
     overflow: hidden;
     background-color: #333;
-    font-family: Arial, Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif
   }
   
 /* Links inside the navbar */
