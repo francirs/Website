@@ -242,7 +242,6 @@ overflow: hidden;
     .bg-img {
       /* The image used */
       background-image: url("helping.jpeg");
-    
       min-height: 380px;
     
       /* Center and scale the image nicely */
