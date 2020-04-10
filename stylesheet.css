@@ -290,17 +290,3 @@ overflow: hidden;
       opacity: 1;
     }
 
-<<<<<<< HEAD
-=======
-    .footer {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 2.5rem;
-      background-color: darkblue;
-      color: white;
-      text-align: center;
-      margin-top:auto; 
-   }
->>>>>>> parent of ecfd4ec... Update stylesheet.css
