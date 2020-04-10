@@ -245,50 +245,60 @@ overflow: hidden;
       -webkit-text-stroke: 1px black; 
   } 
     
-  /* styling background image */
-  .bg-img { 
-      background-image: url( 
-"https://www.google.com/search?q=helping+others+image&safe=strict&sxsrf=ALeKk03wL3oCbU7AnxaCf9shd-Adcp-ZJQ:1586530618690&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjv3M6Pj97oAhXQDewKHVZ0B5wQ_AUoAXoECA8QAw&biw=800&bih=554#imgrc=72QfMCClS3GagM&imgdii=f7oNWtN09q9WOM"); 
-      min-height: 380px; 
-      background-size: cover; 
-  } 
+  
+  
+* {
+  box-sizing: border-box;
+}
 
-  /* Styling the form container */
-  .container { 
-      position: absolute; 
-      left: 28px; 
-      top: 50px; 
-      margin: 20px; 
-      max-width: 300px; 
-      padding: 16px; 
-  } 
+.bg-img {
+  /* The image used */
+  background-image: url("helping.jpeg");
 
-  b { 
-      color: green; 
-      font-size:26px; 
-      -webkit-text-stroke: 1px black; 
-  } 
+  min-height: 380px;
 
-  /* Full-width input */
-  input[type=text], 
-  input[type=password] { 
-      width: 100%; 
-      padding: 15px; 
-      margin: 15px 0px; 
-      border: 2px solid green; 
-  } 
-    
-  /* Styling the submit button */
-  .buttn { 
-      background-color: green; 
-      color: white; 
-      padding: 16px 16px; 
-      border: none; 
-      cursor: pointer; 
-      width: 100%; 
-  } 
-    
-  .buttn:hover { 
-      transform: scale(1.1); 
-      transition: transform 0.3s; 
-  } 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
