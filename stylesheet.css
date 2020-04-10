@@ -2,15 +2,7 @@
 /* .flexItem will apply to all elements with a class of flexItem */
 
   /* Navbar container */
-  .body{
-    font-family: Arial;
-    margin: 20px;
-    padding: 5px;
-    font-size: 16px;
-    border-spacing: 15px;
-  }
-
-  .text{
+  .html, body, text, p{
     font-family: Arial;
     margin: 20px;
     padding: 5px;
