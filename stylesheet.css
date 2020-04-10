@@ -293,5 +293,8 @@ overflow: hidden;
     .footer {
       background-color: grey;
       color: white;
+      position: fixed;
+      width: 100%;
+      border-top: 10px;
       text-align: center;
     }
