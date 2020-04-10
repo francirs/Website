@@ -289,3 +289,11 @@ overflow: hidden;
     .btn:hover {
       opacity: 1;
     }
+
+    footer {
+      background: grey;
+      bottom: 0px;
+      width:100vw;
+      margin-bottom:0;
+      
+    }
