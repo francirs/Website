@@ -269,7 +269,7 @@ overflow: hidden;
 }
 
   b { 
-      color: green; 
+      color: grey; 
       font-size:26px; 
       -webkit-text-stroke: 1px black; 
   } 
@@ -290,7 +290,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for the submit button */
 .buttn {
-  background-color: #4CAF50;
+  background-color: grey;
   color: white;
   padding: 16px 20px;
   border: none;
